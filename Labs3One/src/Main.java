@@ -24,10 +24,10 @@ public class Main {
        System.out.println("____________________________________________________________________");
        
        
-       System.out.println ("Длина односвязанного списка:" + l.lenght());
+       System.out.println ("Длина односвязанного списка: " + l.lenght());
        System.out.println("____________________________________________________________________");
        
-       System.out.println("Поиск элемента со значением \"Loser, 3 Doors Down\":" + l.find("Loser, 3 Doors Down"));
+       System.out.println("Поиск элемента со значением \"Loser, 3 Doors Down\": " + l.find("Loser, 3 Doors Down"));
        System.out.println("____________________________________________________________________");
        
        l.remove("Loser, 3 Doors Down");
@@ -35,7 +35,7 @@ public class Main {
        l.printAll();
        System.out.println("____________________________________________________________________");
        
-       System.out.println ("Длина односвязанного списка:" + l.lenght());
+       System.out.println ("Длина односвязанного списка: " + l.lenght());
        System.out.println("____________________________________________________________________");
        
       
